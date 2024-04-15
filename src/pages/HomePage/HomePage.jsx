@@ -12,7 +12,7 @@ const HomePage = () => {
           <a href="#" className="nav-item">Home</a>
           <a href="#" className="nav-item">Login</a>
           <a href="#" className="nav-item">Vehicles</a>
-          {/* <a href='#' className='nav-contact'>Contact Us</a> */}
+          <a href='#' className='nav-contact'>Contact Us</a>
         </div>
       </nav>
 
