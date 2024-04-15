@@ -22,7 +22,7 @@ const VehiclesPage = () => {
 
     // }
   ];
-
+  
   return (
     <div>
       {cars.map((car, index) => {

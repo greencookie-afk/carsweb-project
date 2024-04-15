@@ -11,8 +11,11 @@ const App = () => {
       <Navbar/>
     <Routes>
       <Route path="/" element={<HomePage />} />
+<<<<<<< HEAD
       <Route path="/profile" element={<ProfilePage />} />
       <Route path="/vehicles" element={<VehiclesPage/>} />
+=======
+>>>>>>> 55b7062af12bca12a5ab7c90f7965f9cee821f83
 
 
     </Routes>
