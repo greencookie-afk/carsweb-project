@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Space+Grotesk:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend", sans-serif;
+  background-color: #DCD9D4;
+ background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+ background-blend-mode:multiply;
+  color: white;
+  height: 100rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: #000000;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-contact {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-item:hover {
+  background-color: rgb(187, 0, 0);
+  color: white;
+}
+
+.nine {
+  color: rgb(187, 0, 0);
+}
+
+.nav-contact:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.main-body {
+  font-family: monospace;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.image-overlay-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.car-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 200px auto;
+  position: relative;
+  z-index: 2;
+}
+
+.back-text {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translate(-50%, -50%);
+  font-size: 6rem;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+
+.back-text2 {
+  position: absolute;
+  left: 50%;
+  top: 23.5%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: rgb(22, 22, 22);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -180px;
+  gap: 20px;
+}
+
+.order-button,
+.specs-button {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 8px 14px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 2px;
+  background-color: #00000000;
+  transition: background-color 0.3s, color 0.3s;
+  z-index: 3;
+}
+
+.order-button:hover {
+  background-color: #ffffff;
+  border: 1px solid white;
+  color: rgb(0, 0, 0);
+}
+
+.specs-button:hover {
+  background-color: #ffffff;
+  border: 1px solid white;
+  color: black;
+}
+
+.models h1 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.car-models {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.car-models .car {
+  text-align: center;
+  margin: 20px;
+}
+
+.car-models .car img {
+  max-width: 100%;
+  width: 500px;
+  border-radius: 30px;
+}
+
+.car-models .car h3 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+.car-models .car p {
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .nav-links {
+    display: none;
+  }
+
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .back-text {
+    font-size: 2.5rem;
+  }
+
+  .back-text2 {
+    font-size: 0.7rem;
+  }
+
+  .car-image {
+    margin-top: 150px;
+  }
+
+  .order-button {
+    font-size: 0.5rem;
+  }
+
+  .specs-button {
+    font-size: 0.5rem;
+  }
+  .car-models {
+    flex-direction: column;
+  }
+}
