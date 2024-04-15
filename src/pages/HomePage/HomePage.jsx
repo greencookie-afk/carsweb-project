@@ -6,15 +6,7 @@ import model2 from './model 2.png'
 const HomePage = () => {
   return (
     <>
-      <nav className="navbar">
-        <div className="logo">99Cars</div>
-        <div className="nav-links">
-          <a href="#" className="nav-item">Home</a>
-          <a href="#" className="nav-item">Login</a>
-          <a href="#" className="nav-item">Vehicles</a>
-          <a href='#' className='nav-contact'>Contact Us</a>
-        </div>
-      </nav>
+    
 
       <div className="main-body">
         <div className="image-text-container">
