@@ -1,0 +1,41 @@
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://images.beta.cosmos.so/3501aa81-9f2b-4588-b965-334a7a5919ed?format=jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login-form {
+    padding: 20px;
+    background: rgba(24, 24, 24, 0.8); 
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.login-form h2 {
+    text-align: center;
+}
+
+.login-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form button {
+    padding: 10px;
+    background-color: #ce0000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.login-form button:hover {
+    background-color: #0056b3;
+}
