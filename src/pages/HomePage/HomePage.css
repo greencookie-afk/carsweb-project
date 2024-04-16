@@ -8,11 +8,8 @@
 
 body {
   font-family: "Lexend", sans-serif;
-  background-color: #DCD9D4;
- background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
- background-blend-mode:multiply;
+  background-color: #b6b4b1;
   color: white;
-  height: 100rem;
 }
 
 .navbar {
@@ -22,6 +19,8 @@ body {
   padding: 10px 40px;
   background-color: #000000;
 }
+
+
 
 .logo {
   font-size: 18px;
@@ -72,7 +71,9 @@ body {
   position: relative;
 }
 
-.image-overlay-container {
+
+
+.image-text-container {
   position: relative;
   display: flex;
   justify-content: center;
@@ -126,10 +127,10 @@ body {
 .order-button,
 .specs-button {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 16px;
   padding: 8px 14px;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 2px;
   background-color: #00000000;
   transition: background-color 0.3s, color 0.3s;
@@ -151,6 +152,7 @@ body {
 .models h1 {
   text-align: center;
   margin-top: 60px;
+  color: black;
 }
 
 .car-models {
@@ -174,13 +176,13 @@ body {
 
 .car-models .car h3 {
   font-size: 1.2rem;
-  color: #ffffff;
+  color: #000000;
   margin: 10px 0;
 }
 
 .car-models .car p {
   font-size: 0.9rem;
-  color: #ffffff;
+  color: #000000;
 }
 
 @media (max-width: 600px) {

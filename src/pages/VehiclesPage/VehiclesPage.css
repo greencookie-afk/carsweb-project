@@ -1,0 +1,46 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+
+.container-1 {
+    margin-top: -200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.car-name {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.car-image img {
+    width: 500px;
+    height: auto;
+}
+
+.specs-btn {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 8px 14px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    background-color: #00000000;
+    transition: background-color 0.3s, color 0.3s;
+    z-index: 3;
+}
+
+.specs-btn:hover {
+    background-color: #ffffff;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}

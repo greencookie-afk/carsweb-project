@@ -1,12 +1,13 @@
 import './Navbar.css'
  const Navbar = ()=> {
     return   <nav className="navbar">
-    <div className="logo">99Cars</div>
+    <div className="logo">Porsche</div>
     <div className="nav-links">
-      <a href="/" className="nav-item">Home</a>
-      <a href="#" className="nav-item">Login</a>
+      <a href="/home" className="nav-item">Home</a>
+      <a href="/login" className="nav-item">Login</a>
+      <a href="/Signup" className="nav-item">Signup</a>
       <a href="/vehicles" className="nav-item">Vehicles</a>
-      <a href='#' className='nav-contact'>Contact Us</a>
+      <a href='/contact' className='nav-contact'>Contact</a>
     </div>
   </nav>
  }
