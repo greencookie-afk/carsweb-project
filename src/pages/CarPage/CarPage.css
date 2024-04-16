@@ -6,10 +6,11 @@
   box-sizing: border-box;
 }
 
-header {
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
+.big-div {
+    background-image: url(https://backiee.com/static/wallpapers/1000x563/363481.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 500px;
 }
 
 
@@ -22,19 +23,12 @@ header {
 
 .header-body p {
     font-size: 1rem;
-    margin-bottom: 20px;
 }
 
 
 .stats {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
-}
-
-.gauge img {
-    width: 50px;
-    height: 50px;
 }
 
 
@@ -45,18 +39,13 @@ h2 {
 
 small {
     font-size: 0.8rem;
-    color: gray;
+    color: rgb(255, 255, 255);
 }
 
 
 #video {
     text-align: center;
     padding: 20px 0;
-}
-
-video {
-    max-width: 100%;
-    height: auto;
 }
 
 
@@ -67,37 +56,26 @@ video {
 .specs ul {
     max-width: 600px;
     margin: 0 auto;
+    color: rgb(0, 0, 0);
 }
 
 .specs ul li {
     padding: 1em 0;
-    border-bottom: 1px #ccc solid;
+    border-bottom: 1px #000000 solid;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.statistics {
+    display: flex;
+
+}
 
 .about, .interior {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 20px 0;
-}
-
-.about img, .interior img {
-    width: 50%;
-    height: auto;
-}
-
-.about-text, .interior div {
-    padding-left: 20px;
-}
-
-.about-text h2, .interior h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.about-text p, .interior p {
-    font-size: 1rem;
+    color: black;
 }

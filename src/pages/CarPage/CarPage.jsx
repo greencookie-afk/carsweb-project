@@ -1,54 +1,38 @@
-
+import React from 'react';
 import './CarPage.css';
 
-function Porsche911() {
+function CarPage() {
     return (
         <div>
-            <header>
+            <div className='big-div'>
                 <div className="sidebar-drop"></div>
 
                 <div className="header-body">
-                    <h1 className="title">Porsche 911</h1>
+                    <h1 className="title">Porsche 718</h1>
                     <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam beatae, aperiam quibusdam tenetur
-                            maiores maxime odio animi! Officia voluptate atque error ut quia labore corrupti excepturi explicabo est
-                            doloribus! Iste.</p>
+                        <p>Illuminated by a soft glow, the Porsche 718 Cayman GT4 sits majestically in a hushed garage. Its sleek profile and race-inspired decals hint at the power and agility that await the night.</p>
                         <div className="stats">
-                            <div className="gauge">
-                                <img src="CarPage/front.webp" alt="" />
-                                <h2>1.9 <span>s</span></h2>
-                            </div>
-                            <div>
-                                <small>0-60mph</small>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <h2>
-                                    <span>+</span>250 <span>mph</span>
-                                </h2>
-                            </div>
-                            <div>
-                                <small>Top speed</small>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <h2>620 <span>s</span></h2>
-                            </div>
-                            <div>
-                                <small>Range</small>
+                            <div className='statistics'>
+                                <div className="gauge">
+                                    <h2>1.9 <span>s</span></h2>
+                                    <small>0-60mph</small>
+                                </div>
+                                <div>
+                                    <h2>
+                                        <span>+</span>250 <span>mph</span>
+                                    </h2>
+                                    <small>Top speed</small>
+                                </div>
+                                <div>
+                                    <h2>620 <span>s</span></h2>
+                                    <small>Range</small>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </header>
+            </div>
 
-            <section id="video">
-                <video autoplay muted loop data-aos="fade-up" data-aos-duration="1200">
-                    <source src="CarPage/lv_0_20240415000042.mp4" type="video/mp4" className="video" />
-                </video>
-            </section>
 
             <section className="specs">
                 <ul>
@@ -91,7 +75,6 @@ function Porsche911() {
             </section>
 
             <section className="about">
-                <img src="CarPage/back.jpeg" data-aos="fade-up" data-aos-duration="1200" />
                 <div className="about-text">
                     <h2>
                         Designed for performance
@@ -102,7 +85,6 @@ function Porsche911() {
             </section>
 
             <section className="interior">
-                <img src="CarPage/interior.jpg" data-aos="fade-up" data-aos-duration="1200" />
                 <div>
                     <h2>Interior</h2>
                     <p>

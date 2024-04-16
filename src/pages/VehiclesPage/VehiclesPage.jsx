@@ -77,7 +77,7 @@ const VehiclesPage = () => {
       transmission: "Manual & Automatic"
     },
     {
-      name: "kia Sonat",
+      name: "kia Sonet",
       image: "https://imgd.aeplcdn.com/664x374/n/cw/ec/174423/sonet-exterior-right-front-three-quarter-5.jpeg?isig=0&q=80",
       price: "Rs. 7.99 - 15.75 Lakh",
       mileage: "Petrol - Manual(1197 cc)17.5 kmpl",
@@ -109,8 +109,7 @@ const VehiclesPage = () => {
       <div className="vehicles">
         {cars.map((car, index) => (
           <div className="card">
-            <div className="car-image">
-              <img src="https://i.postimg.cc/FmjyFJ1n/718porsche.png" alt="" />
+            <div className="car-image">{car.image}
             </div>
             <div className="container-1">
               <div className="car-name">{car.name}</div>

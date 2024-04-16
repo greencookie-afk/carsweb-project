@@ -9,8 +9,7 @@ const LoginPage = () => {
                 <input type="text" placeholder="Username" required />
                 <input type="password" placeholder="Password" required />
                 <button type="submit">Log In </button>
-                <div className='signup'> <a href="/Signup">Create account</a></div>
-                   
+                <div className='signup'> <a href="/Signup">Create account</a></div>      
             </form>
         </div>
     );
