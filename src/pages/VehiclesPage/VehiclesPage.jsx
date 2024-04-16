@@ -1,19 +1,24 @@
 import React from "react";
 import "./VehiclesPage.css";
-
 const VehiclesPage = () => {
   const cars = [
     {
-      name: "Maruti Fornex",
+      name: "Porsche 718 cayman gt4 rs",
       image:
-        "https://imgd.aeplcdn.com/664x374/n/cw/ec/130591/fronx-exterior-right-front-three-quarter-109.jpeg?isig=0&q=80",
+        "https://ibb.co/bBtXQmG",
 
+<<<<<<< HEAD
       carPrice: "Rs. 7.51 Lakh - 13.03 Lakh",
       mileage: "20.01 to 28.51 kmpl",
+=======
+      carPrice: " Price: Rs. 1.5cr - 3cr",
+      mileage: " Mileage: 20.01 to 28.51 kmpl",
+>>>>>>> e9df1414e002b1f3d6da915846b4386a46dbf2f3
       keyFeatures:
-        "Side and curtain airbags all 3-point seat belts Auto-dimming inside rearview mirror Electronic Stability Program",
-      Transmission: "Manual & Automatic",
+        " Keyfeatures: Side and curtain airbags all 3-point seat belts Auto-dimming inside rearview mirror Electronic Stability Program",
+      Transmission: " Transmission: Manual & Automatic",
     },
+<<<<<<< HEAD
     {
       name:"tata Punch",
       image:"https://imgd.aeplcdn.com/664x374/n/cw/ec/39015/punch-exterior-right-front-three-quarter-54.jpeg?isig=0&q=80",
@@ -106,19 +111,37 @@ const VehiclesPage = () => {
     // {
     //     name:"",
     //     image:"https://imgd.aeplcdn.com/664x374/n/cw/ec/39015/punch-exterior-right-front-three-quarter-54.jpeg?isig=0&q=80",
+=======
+>>>>>>> e9df1414e002b1f3d6da915846b4386a46dbf2f3
 
-    // }
+    
   ];
-  
+
+
+
+
+
+
+
   return (
-    <div>
-      {cars.map((car, index) => {
-        return ( <div key={index} className="card">
-        <div className="">{car.name}</div>
-      </div>)
-       
-      })}
+
+    <div className="main">
+      <div className="vehicles">
+        {cars.map((car, index) => (
+          <div className="card">
+            <div className="car-image">
+              <img src="https://i.postimg.cc/FmjyFJ1n/718porsche.png" alt="" />
+            </div>
+            <div className="container-1">
+              <div className="car-name">{car.name}</div>
+              <button className="specs-btn">Specs</button>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
+
+
   );
 };
 
