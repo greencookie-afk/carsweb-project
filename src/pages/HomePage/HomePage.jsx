@@ -4,23 +4,9 @@ import carImage from './Porsche stock image.png';
 import model2 from './model 2.png';
 
 const HomePage = () => {
-<<<<<<< HEAD
   return (
     <>
     
-=======
-    return (
-        <>
-            <nav className="navbar">
-                <div className="logo">99Cars</div>
-                <div className="nav-links">
-                    <a href="#" className="nav-item">Home</a>
-                    <a href="#" className="nav-item">Login</a>
-                    <a href="#" className="nav-item">Vehicles</a>
-                    <a href='#' className='nav-contact'>Contact Us</a>
-                </div>
-            </nav>
->>>>>>> 55b7062af12bca12a5ab7c90f7965f9cee821f83
 
             <div className="main-body">
                 <div className="image-text-container">
