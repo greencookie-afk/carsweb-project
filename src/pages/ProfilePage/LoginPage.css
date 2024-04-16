@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: #f1f1f1;
+}
+
+.container {
+    display: flex;
+    height: 95vh;
+    width: 95vw;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group button {
+    width: 95%;
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin :10px;
+    
+}
+
+.image-container {
+    display: flex;
+    flex: 1;
+    background-image: url('pexels-supreet-11743507.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width: 768px) {
+
+    .image-container {
+        display: none;
+    }
+} 
+
