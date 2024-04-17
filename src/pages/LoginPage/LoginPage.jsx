@@ -3,7 +3,7 @@ import './LoginPage.css';
 
 const LoginPage = () => {
     return (
-        <div className="login-container">
+            <div className="login-container">
             <form className="login-form">
                 <h2>Login</h2>
                 <input type="text" placeholder="Username" required />
@@ -12,6 +12,7 @@ const LoginPage = () => {
                 <div className='signup'> <a href="/Signup">Create account</a></div>      
             </form>
         </div>
+        
     );
 }
 

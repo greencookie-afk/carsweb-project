@@ -8,24 +8,32 @@ const HomePage = () => {
                 <div className="overlay">
                     <div className="content">
                         <h1>Engineered to Excite</h1>
+                        <p>Discover cutting-edge designs and performance innovation in our latest models.</p>
                         <button className="discover-btn">Discover Now</button>
                     </div>
                 </div>
             </div>
-            
-            <div className="featured-cars">
-                <h1>Featured Cars</h1>
-                <div className="car">
-                    <img src="https://c4.wallpaperflare.com/wallpaper/688/262/354/911-porsche-side-view-turbo-s-2020-hd-wallpaper-preview.jpg" alt="Car Model One"/>
-                    <h3>Model One</h3>
-                    <p>The future of driving.</p>
+
+            <div className="model-showcase">
+                <h2>Porsche 911 gt3 rs</h2>
+            </div>
+
+            <div className="specs-section">
+                <div className="specs-details">
+                    <div className="spec">
+                        <h3>Performance</h3>
+                        <p>0-60 mph in just 3.2 seconds</p>
+                    </div>
+                    <div className="spec">
+                        <h3>Efficiency</h3>
+                        <p>Up to 310 mph</p>
+                    </div>
+                    <div className="spec">
+                        <h3>Technology</h3>
+                        <p>Lorem ipsum dolor sit.
+                        </p>
+                    </div>
                 </div>
-                <div className="car">
-                    <img src="https://c4.wallpaperflare.com/wallpaper/688/262/354/911-porsche-side-view-turbo-s-2020-hd-wallpaper-preview.jpg" alt="Car Model Two"/>
-                    <h3>Model Two</h3>
-                    <p>Redefined luxury and performance.</p>
-                </div>
-                {/* Additional cars can be added here */}
             </div>
         </div>
     );
