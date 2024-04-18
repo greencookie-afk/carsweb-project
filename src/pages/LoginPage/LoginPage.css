@@ -3,8 +3,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('https://images.beta.cosmos.so/3501aa81-9f2b-4588-b965-334a7a5919ed?format=jpeg') no-repeat center center fixed;
+    background: url('https://w0.peakpx.com/wallpaper/730/721/HD-wallpaper-porsche-rwb-concept-porsche-cars-behance.jpg') no-repeat center center fixed;
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .login-form {
@@ -16,6 +17,7 @@
     flex-direction: column;
     gap: 10px;
     width: 300px;
+    color: white;
 }
 
 .login-form h2 {

@@ -1,51 +1,58 @@
 import React from 'react';
 import './HomePage.css';
-import carImage from './Porsche stock image.png';
-import model2 from './model 2.png'
 
 const HomePage = () => {
     return (
-        <>
-            <div className="main-body">
-                <div className="image-text-container">
-                    <div className="main-text">
-                        <h1 className='back-text'>Porsche <span className='nine'>9</span>11</h1>
-                        <p className='back-text2'>Performance, style and innovation</p>
+        <div className="homepage">
+            <div className="background-image">
+                <div className="overlay">
+                    <div className="content">
+                        <h1>Engineered to Excite</h1>
+                        <p>Discover cutting-edge designs and performance innovation in our latest models.</p>
+                        <button className="discover-btn">Discover Now</button>
                     </div>
-
-                    <img src={carImage} alt="Car" className="car-image" />
                 </div>
             </div>
-            <div className='btn-container'>
-                <a href="" className='specs-button'>Specifications</a>
-                <a href="" className='order-button'>Order Now</a>
+
+            <div className="model-showcase">
+                <h2>Porsche 911 gt3 rs</h2>
             </div>
 
-            <div className='models'>
-                <h1>Models</h1>
-            </div>
-            <div className='car-models'>
-                <div className="car">
-                    <img src={carImage} alt="" />
-                    <h3>Porsche 911</h3>
-                    <p>sample text</p>
+            <div className="specs-section">
+                <div className="specs-details">
+                    <div className="spec">
+                        <h3>Performance</h3>
+                        <p>0-60 mph in just 3.2 seconds</p>
+                    </div>
+                    <div className="spec">
+                        <h3>Efficiency</h3>
+                        <p>Up to 310 mph</p>
+                    </div>
+                    <div className="spec">
+                        <h3>Technology</h3>
+                        <p>Lorem ipsum dolor sit.
+                        </p>
+                    </div>
                 </div>
-                <a href="" className='specs-button'>Specifications</a>
             </div>
+
 
             <div className='car-models'>
                 <div className="car">
-                    <img src={model2} alt="" />
+                    {/* <img src={model2} alt="" />
                     <h3>Porsche 918 spyder</h3>
-                    <p>Sample text</p>
+                    <p>Sample text</p> */}
                 </div>
                 <a href="" className='specs-button'>Specifications</a>
             </div>
 
         
 
-    </>
-  );
-};
+  
+
+        </div>
+    );
+}
+
 
 export default HomePage;

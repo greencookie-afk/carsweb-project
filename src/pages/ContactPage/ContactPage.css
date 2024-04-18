@@ -1,5 +1,5 @@
 .contact-container {
-    background-image: url('https://images.beta.cosmos.so/3501aa81-9f2b-4588-b965-334a7a5919ed?format=jpeg');
+    background-image: url('https://w0.peakpx.com/wallpaper/730/721/HD-wallpaper-porsche-rwb-concept-porsche-cars-behance.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -9,6 +9,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: orbitron;
 }
 
 .contacttext {
